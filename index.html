@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-commerce Product Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <header> 
+            <div class="hero" style="display: flex; padding: 20px; background: #1e293b;">       
+                <div class="logo" style="margin-right: 10px;">TIMELESS WATCHES</div>
+                <div class="search-bar">
+                    <input type="text" placeholder="search...">
+                    <button>🔍</button>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#" style="color: white;">Shop</a></li>
+                        <li><a href="#" style="color: white;">New Arrivals</a></li>
+                        <li><a href="#" style="color: white;">Brands</a></li>
+                        <li><a href="#" style="color: white;">About</a></li>
+                        <li><a href="#" style="color: white;">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="video-container">
+                <video autoplay auto play muted loop style="width: 100%; height: auto; position: absolute; object-fit: cover;">
+                    <source src="39863-425400884_small.mp4" type="video/mp4">
+                </video>
+                <div class="product-container">
+                    <div class="image-gallery">
+                        <img src="images/watch 1.jpg" alt="an image">
+                        <div class="thumbnails">
+                            <img src="images/watch 2.jpg" alt="an image">
+                            <img src="images/watch 3.jpg" alt="an image">
+                            <img src="images/watch 4.jpg" alt="an image">
+                            <img src="images/watch 5.jpg" alt="an image">
+                            <img src="images/watch6.jpg" alt="an image">
+                            <img src="images/watch7.jpg" alt="an image">
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <h1>Elegant Luxury Watch</h1>
+                        <p class="brand">PRESTIGE TIME CO.</p>
+                        <p class="price">
+                            <span class="current-price">$499.99</span>  
+                            <span class="old-price">$799.99</span> 
+                            <span class="discount">38% OFF</span>
+                        </p>
+                        <p class="description">This luxurious timepiece combines elegance with precision craftsmanship. Perfect for formal occassions or everyday wear, it features premuim materials and impeccable design</p>
+
+                        <div class="rating">
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <span class="star">⭐</span>
+                            <p>Rated 4.8/5 (256 reviews)<p>
+                        </div>
+                        <div class="quantity-selector">
+                            <button onclick="decreaseQuantity()">-</button>
+                            <input type="number" id="quantity" value="1" min="1">
+                            <button onclick="increaseQuantity()">+</button>
+                        </div>
+                        <button class="add-to-cart">Add to Bag</button>
+
+                        <div class="promotion">
+                            <h3>Limited-Time Offer</h3>
+                            <p>Get an additional 10% off your first purchase when you sign up to our newsletter</p>
+                            <button>sign up now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Timeless Watches. Crafted for Excellence.</p>
+        </footer>
+    </body>
+</html>
