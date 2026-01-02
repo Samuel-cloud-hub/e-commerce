@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px;
     background: #1e293b;
     color: #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -249,6 +249,18 @@ footer {
     display: flex;
     gap: 15px;
     margin-top: 15px;
+    }
+    .thumbnails img {
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, border 0.3s ease;
+    }
+    .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #fff;
     }
 }
 @media (max-width: 768px) {
